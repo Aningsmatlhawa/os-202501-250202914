@@ -66,7 +66,8 @@ Sertakan screenshot hasil percobaan atau diagram:
 
 ---
 
-## kesimpulan yang saya ambil adalah perbedaan sistem operasi seperti kernel, sistem call dan arsitektur os sangat berbeda satu sama lain,selain itu saya  jadi tahu bagaimana cara bekerja sistem operasi, dan mengetahui sisi linux aaupun windows, saya lebih mudah mengidentifikasi software bagaimana dan juga hardware .
+## kesimpulan yang saya ambil adalah
+perbedaan sistem operasi seperti kernel, sistem call dan arsitektur os sangat berbeda satu sama lain,selain itu saya  jadi tahu bagaimana cara bekerja sistem operasi, dan mengetahui sisi linux aaupun windows, saya lebih mudah mengidentifikasi software bagaimana dan juga hardware .
 
 ---
 
