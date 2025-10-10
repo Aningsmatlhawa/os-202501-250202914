@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="gambar" src="https://github.com/user-attachments/assets/05e0a301-c1f0-4a71-b3cc-fa1400eac00a" />
+
 # Laporan Praktikum Minggu [X]
 Topik: [Analisis arsitektur kernel dan model sistem operasi]
 
