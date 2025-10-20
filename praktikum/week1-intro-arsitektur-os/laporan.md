@@ -1,5 +1,5 @@
 
-# Laporan Praktikum Minggu [X]
+# Laporan Praktikum Minggu [1]
 Topik: [Analisis arsitektur kernel dan model sistem operasi]
 
 ---
