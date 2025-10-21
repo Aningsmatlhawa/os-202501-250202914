@@ -1,5 +1,5 @@
 
-# Laporan Praktikum Minggu [X]
+# Laporan Praktikum Minggu [2]
 Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 
 ---
@@ -43,7 +43,10 @@ dmesg | head
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/example.png)
+![Screenshot hasil](./screenshots/syscall_ls.png.png)
+![screenshot hasil](./screenshots/strace_io.png.png)
+![screenshot hasil](./screenshots/dmesg_10.png.png)
+| Keterangan | | 
 
 ---
 
