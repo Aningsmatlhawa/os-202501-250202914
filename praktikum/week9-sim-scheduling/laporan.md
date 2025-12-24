@@ -89,14 +89,22 @@ Program harus:
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/example.png)
 
+![Screenshot hasil](./screenshots/Hasil%20Eksekusi.png)
 ---
 
 ## Analisis
-- Jelaskan makna hasil percobaan.  
-- Hubungkan hasil dengan teori (fungsi kernel, system call, arsitektur OS).  
-- Apa perbedaan hasil di lingkungan OS berbeda (Linux vs Windows)?  
+Analisis Singkat Hasil Eksekusi FCFS
+
+- Algoritma yang digunakan adalah FCFS (First Come First Serve) → proses dieksekusi sesuai urutan kedatangan: P1 → P2 → P3 → P4.
+
+- P1 benar: datang paling awal, waiting time = 0, turnaround = 6.
+
+- P2 dan P3: waiting time ditampilkan 0, seharusnya tidak 0 karena mereka menunggu proses sebelumnya selesai → ada kesalahan perhitungan waiting time.
+
+- P4: waiting time dan turnaround sudah sesuai konsep FCFS.
+
+Muncul SyntaxWarning invalid escape sequence '\t', karena penulisan string \t tidak aman.
 
 ---
 
