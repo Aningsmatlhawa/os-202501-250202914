@@ -1,0 +1,42 @@
+# =========================================
+# Simulasi Page Replacement - LRU
+# Output disesuaikan dengan FIFO sebelumnya
+# =========================================
+
+def lru_page_replacement(reference_string, frame_size):
+    memory = []
+    page_fault = 0
+
+    print("=== LRU Page Replacement ===")
+
+    for page in reference_string:
+        # PAGE HIT
+        if page in memory:
+            # Pindahkan page ke posisi paling akhir (terbaru dipakai)
+            memory.remove(page)
+            memory.append(page)
+
+            print(f"Page: {page} -> Memory: {memory} (Page Hit)")
+        # PAGE FAULT
+        else:
+            page_fault += 1
+
+            if len(memory) < frame_size:
+                memory.append(page)
+            else:
+                # Hapus page yang paling lama tidak digunakan
+                memory.pop(0)
+                memory.append(page)
+
+            print(f"Page: {page} -> Memory: {memory} (Page Fault)")
+
+    print(f"\nTotal Page Fault LRU: {page_fault}")
+
+
+# -------------------------------
+# Program Utama
+# -------------------------------
+reference_string = [7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2]
+frame_size = 3
+
+lru_page_replacement(reference_string, frame_size)
