@@ -1,0 +1,54 @@
+# Daftar proses
+processes = ["P1", "P2", "P3"]
+
+# Allocation: proses -> resource yang dipegang
+allocation = {
+    "P1": "R1",
+    "P2": "R2",
+    "P3": "R3"
+}
+
+# Request: proses -> resource yang diminta
+request = {
+    "P1": "R2",
+    "P2": "R3",
+    "P3": "R1"
+}
+
+# Membuat Resource -> Process (siapa pegang resource)
+resource_owner = {}
+for p in allocation:
+    resource_owner[allocation[p]] = p
+
+visited = set()
+deadlock = []
+
+def detect_cycle(process):
+    if process in visited:
+        return True
+
+    visited.add(process)
+    req_res = request[process]
+
+    if req_res in resource_owner:
+        next_process = resource_owner[req_res]
+        return detect_cycle(next_process)
+
+    return False
+
+# Cek deadlock
+for p in processes:
+    visited.clear()
+    if detect_cycle(p):
+        deadlock.append(p)
+
+deadlock = list(set(deadlock))
+
+# Output
+if deadlock:
+    print("Deadlock terdeteksi!")
+    print("Proses yang terlibat:", deadlock)
+else:
+    print("Tidak terjadi deadlock")
+
+
