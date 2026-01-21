@@ -228,17 +228,19 @@ Bagian paling menantang adalah melakukan konfigurasi Dockerfile agar dapat melak
 3. Tabel Perhitungan CPU Secheduling
    ![Screenshot hasil](./screenshots/Tabel%20FCFS.jpeg)
 
+4. Hasil Git Kolaboratif
+   ![Screenshot hasil](./screenshots/Hasil%20Git%20Kolaboratif.jpeg)
 ---
 
 ## Pembagian Tugas
 
-| Nama                 |    NIM    |    Peran tugas |
-| :------------------- | :-------: | -------------: |
-| Erlin Dwi Cahyanti   | 250202911 | Project Leader |
-| Ani Ngismatul Hawa   | 250202914 |    Developer 1 |
-| Dyah Retno wulandari | 250202934 |    Developer 2 |
-| Lutfi Khoerunnisa    | 250202947 |  Dokumentasi 1 |
-| Aster Rifani         | 250202915 |  Dokumentasi 2 |
+| Nama                 |    NIM    |    Peran  |Tugas
+| :------------------- | :-------: | -------------: |---------|
+| Erlin Dwi Cahyanti   | 250202911 | Project Leader |Mengoordinasikan alur kerja Git kelompok dan melakukan kontrol penggabungan (merge)|
+| Ani Ngismatul Hawa   | 250202914 |    Developer 1 |Mengerjakan modul CPU Scheduling (FCFS) dan dokumentasi terkait|
+| Dyah Retno wulandari | 250202934 |    Developer 2 |Mengerjakan modul Page Replacement (FIFO) dan integrasi laporan mingguan|
+| Lutfi Khoerunnisa    | 250202947 |  Dokumentasi 1 |Menyusun hasil eksekusi program dan tabel perhitungan|
+| Aster Rifani         | 250202915 |  Dokumentasi 2 |Mengelola struktur repositori dan pembaruan berkas README|
 
 ---
 
