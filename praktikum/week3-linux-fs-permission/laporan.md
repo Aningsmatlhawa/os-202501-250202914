@@ -185,7 +185,7 @@ Dari percobaan tadi terlihat bahwa:
 1. [Apa fungsi dari perintah `chmod?`]  
    **Jawaban:** 
    Fungsi perintah `chmod` (change mode) adalah untuk mengubah izin akses (permission) pada file atau direktori di sistem Linux. 
-2. [pa arti dari kode permission `rwxr-xr--`?]  
+2. [Apa arti dari kode permission `rwxr-xr--`?]  
    **Jawaban:**  
    `rwxr-xr-` artinya:
  Pemilik bisa baca, tulis, dan jalankan.
