@@ -43,7 +43,7 @@ Tuliskan tujuan praktikum minggu ini.
 ### A. Desain Arsitektur Umum
 
 Arsitektur umum Mini Simulasi Sistem Operasi ini dibangun di atas tiga lapisan integrasi yang menghubungkan logika algoritma dengan lingkungan eksekusi modern. Pada lapisan inti, Logika Manajemen Memori dan Penjadwalan berfungsi sebagai otak sistem yang memproses antrean data menggunakan algoritma seperti FIFO atau LRU serta mengatur prioritas tugas. Logika ini kemudian dibungkus dalam Lapisan Kontainerisasi (Docker), yang bertindak sebagai lingkungan terisolasi untuk mengatur batas penggunaan sumber daya fisik, seperti membatasi kapasitas CPU dan RAM agar simulasi tidak mengonsumsi seluruh daya host.
-Aliran datanya dimulai dari input proses yang dijadwalkan oleh unit scheduling, lalu dialokasikan ke unit memory management untuk dipetakan ke dalam slot memori yang tersedia, sementara seluruh aktivitas tersebut dipantau secara real-time melalui metrik performa kontainer.
+Aliran datanya dimulai dari input proses yang dijadwalkan oleh unit scheduling, lalu dialokasikan ke unit memory management untuk dipetakan ke dalam slot memori yang tersedia, sementara seluruh aktivitas tersebut dipantau secara real-time melalui metrik performa kontainer.  
 
 ## Deskripsi Modul
 
@@ -76,7 +76,7 @@ Menampilkan hasil dalam bentuk tabel ASCII di terminal
 Input:
 Dataset proses (PID, Arrival Time, Burst Time)
 
-Output:
+Output:      
 Tabel hasil per proses
 Ringkasan metrik penjadwalan
 
@@ -98,19 +98,20 @@ Modul Page Replacement digunakan untuk mensimulasikan penggantian halaman pada m
 | Output     | "1. Tabel status Hit/Fault per referensi. 2. Ringkasan (Total Fault, Fault Rate %)" |
 
 Fungsi Utama:
-Membaca urutan referensi halaman dari file pages.txt
-Menerima input jumlah frame dari pengguna melalui CLI
-Menentukan page hit dan page fault
-Menghitung fault rate
+1. Membaca urutan referensi halaman dari file pages.txt
+2. Menerima input jumlah frame dari pengguna melalui CLI
+3. Menentukan page hit dan page fault
+4. Menghitung fault rate
 
-Input:
-Jumlah frame
-Dataset referensi halaman
-Output:
-Total page reference
-Jumlah page fault
-Jumlah page hit
-Fault rate (%)
+## Input:
+- Jumlah frame
+- Dataset referensi halaman
+
+## Output:
+- Total page reference
+- Jumlah page fault
+- Jumlah page hit
+- Fault rate 
 
 ---
 
