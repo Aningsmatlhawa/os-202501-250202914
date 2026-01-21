@@ -76,7 +76,7 @@ Menampilkan hasil dalam bentuk tabel ASCII di terminal
 Input:
 Dataset proses (PID, Arrival Time, Burst Time)
 
-Output:
+Output:      
 Tabel hasil per proses
 Ringkasan metrik penjadwalan
 
