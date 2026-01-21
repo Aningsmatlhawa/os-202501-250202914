@@ -111,7 +111,7 @@ Fungsi Utama:
 - Total page reference
 - Jumlah page fault
 - Jumlah page hit
-- Fault rate (%)
+- Fault rate 
 
 ---
 
