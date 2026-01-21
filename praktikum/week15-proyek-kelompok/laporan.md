@@ -98,19 +98,20 @@ Modul Page Replacement digunakan untuk mensimulasikan penggantian halaman pada m
 | Output     | "1. Tabel status Hit/Fault per referensi. 2. Ringkasan (Total Fault, Fault Rate %)" |
 
 Fungsi Utama:
-Membaca urutan referensi halaman dari file pages.txt
-Menerima input jumlah frame dari pengguna melalui CLI
-Menentukan page hit dan page fault
-Menghitung fault rate
+1. Membaca urutan referensi halaman dari file pages.txt
+2. Menerima input jumlah frame dari pengguna melalui CLI
+3. Menentukan page hit dan page fault
+4. Menghitung fault rate
 
-Input:
-Jumlah frame
-Dataset referensi halaman
-Output:
-Total page reference
-Jumlah page fault
-Jumlah page hit
-Fault rate (%)
+## Input:
+- Jumlah frame
+- Dataset referensi halaman
+
+## Output:
+- Total page reference
+- Jumlah page fault
+- Jumlah page hit
+- Fault rate (%)
 
 ---
 
