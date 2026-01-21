@@ -43,7 +43,7 @@ Tuliskan tujuan praktikum minggu ini.
 ### A. Desain Arsitektur Umum
 
 Arsitektur umum Mini Simulasi Sistem Operasi ini dibangun di atas tiga lapisan integrasi yang menghubungkan logika algoritma dengan lingkungan eksekusi modern. Pada lapisan inti, Logika Manajemen Memori dan Penjadwalan berfungsi sebagai otak sistem yang memproses antrean data menggunakan algoritma seperti FIFO atau LRU serta mengatur prioritas tugas. Logika ini kemudian dibungkus dalam Lapisan Kontainerisasi (Docker), yang bertindak sebagai lingkungan terisolasi untuk mengatur batas penggunaan sumber daya fisik, seperti membatasi kapasitas CPU dan RAM agar simulasi tidak mengonsumsi seluruh daya host.
-Aliran datanya dimulai dari input proses yang dijadwalkan oleh unit scheduling, lalu dialokasikan ke unit memory management untuk dipetakan ke dalam slot memori yang tersedia, sementara seluruh aktivitas tersebut dipantau secara real-time melalui metrik performa kontainer.
+Aliran datanya dimulai dari input proses yang dijadwalkan oleh unit scheduling, lalu dialokasikan ke unit memory management untuk dipetakan ke dalam slot memori yang tersedia, sementara seluruh aktivitas tersebut dipantau secara real-time melalui metrik performa kontainer.  
 
 ## Deskripsi Modul
 
