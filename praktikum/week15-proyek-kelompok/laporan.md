@@ -147,31 +147,24 @@ Alur data dalam Mini Simulasi Sistem Operasi ini bergerak secara linier dari inp
 
 ## A. Output Modudl Secheduling (FCFS)
 
-=================================================================
 | PID | Arrival | Burst | Finish | TAT | WT |
-
----
-
+|-----|---------|-------|--------|-----|----|
 | P1 | 0 | 10 | 10 | 10 | 0 |
 | P2 | 2 | 5 | 15 | 13 | 8 |
 | P3 | 4 | 8 | 23 | 19 | 11 |
 
-=================================================================
-Ringkasan Metrik:
 
 - Rata-rata Turnaround Time (Avg TAT): 14.00
 - Rata-rata Waiting Time (Avg WT) : 6.33
 
 # B. Output Modul Page Replacement (FIFO):
 
-## | Ref Halaman | Status | Isi Frame |
-
+| Ref Halaman | Status | Isi Frame |
+|------------|--------|---------|
 | 7 | FAULT | [7] |
 | 0 | FAULT | [7, 0] |
 | 1 | FAULT | [7, 0, 1] |
 | 2 | FAULT | [0, 1, 2] |
-
-=====================================================================
 
 - Total Page Fault : 4
 - Fault Rate (%) : 100.00% (pada 4 referensi pertama)
